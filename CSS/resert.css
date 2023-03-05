@@ -1,0 +1,54 @@
+*,
+* ::after,
+* ::before {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  /* box-sizing: border-box; */
+}
+
+a:hover {
+  text-decoration: none;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+input {
+  all: unset;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 400px;
+
+  /* background: #F4F6FB; */
+  font-family: "Poppins", sans-serif;
+}

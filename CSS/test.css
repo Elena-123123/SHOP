@@ -1,0 +1,61 @@
+section.test {
+  background-color: var(--primaryColor);
+}
+section.test .container {
+  padding: 48px;
+}
+
+.tabs-button {
+  border: none;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #7c9ef7;
+  color: #000000;
+  margin-top: 14px;
+  position: relative;
+  z-index: 0;
+  padding: 12px 50px;
+}
+
+.tabs-button.active {
+  background-color: white;
+  z-index: 10;
+}
+
+.tabs-button:last-child {
+  margin-left: -10px;
+}
+
+.form {
+  border-radius: 0px 6px 6px 0px;
+  width: auto;
+  max-width: 640px;
+  height: auto;
+  padding: 40px 48px;
+  background-color: white;
+}
+
+.form-control input {
+  margin-top: 10px;
+  padding: 17px 20px;
+  border-radius: 6px;
+  border: 1px solid var(--borderColor);
+}
+
+/* .form-control:not(:first-child) {
+  margin-left: 14px;
+} */
+
+.form div div {
+  /* gap: 16px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form div button {
+  margin-top: 48px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}

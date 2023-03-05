@@ -1,0 +1,8 @@
+:root {
+  --primaryColor: #165ffe;
+  --titleColor: #040c22;
+  --paragraphColor: #363d4e;
+  --borderColor: #a0a8be;
+  --primaryShadow: 0 1px rgba(0, 0, 0, 0.1);
+  --containerMaxWidth: 1240px;
+}
